@@ -1,0 +1,39 @@
+#fname{
+    margin: 10px;
+}
+#lname{
+    margin: 10px;
+}
+#baruapepe{
+    margin: 10px;
+}
+#dob{
+    margin: 10px;
+}
+#male{
+    margin: 10px;
+}
+#female{
+    margin: 10px;
+}
+#pass{
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    font-family: "JetBrains Mono ExtraLight";
+    background-color: #ecb473;
+    display: block;
+    padding: 20px;
+    color: darkmagenta;
+    margin: 20px;
+}
+form{
+    text-align: center;
+    background-color: antiquewhite;
+    border: solid black 1px;
+    width: 700px; height: 370px;
+    alignment: center;
+    display: block;
+    align-self: center;
+    align-content: center;

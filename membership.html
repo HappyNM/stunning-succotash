@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="for%20form.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column{
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 200px;
+            background-color: rosybrown;
+        }
+        #Rows:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        #navigation ul{
+            background-color: rgba(139, 0, 0, 0.43);
+            list-style-type: none;
+            overflow: hidden;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+
+        }
+        #navigation li{
+            text-align: center;
+            float: left
+        }
+        a,#navigation li{
+            text-align: center;
+            padding: 15px;
+            display: block;
+            color: purple;
+            text-decoration: none;
+            font-size: larger;
+        }
+        #Imagesh{
+            text-align: center;
+            font-size: larger;
+            text-decoration: none;
+            color: purple;
+            text-align: center;
+            float: inside;
+            margin: 0px;
+            background-color: #ecb4b4;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Membership</title>
+</head>
+<body>
+<div id="Imagesh">
+    <h1 style="color: black">ROBUST SPORTS CLUB</h1>
+    <img src="images/kicking%20ball.jpeg" alt="" width="100" height="90">
+    <a href="Project.html">Robust sports club</a>
+</div>
+<div id="navigation">
+    <ul>
+        <li><a href="Project.html">Home</a></li>
+        <li><a href="about%20us.html">About the club</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact%20us.html">Contact us</a></li>
+    </ul>
+</div>
+
+<h3>Membership</h3>
+<img src="images/aboutusniceimage.jpg" alt="" width="1000" height="450">
+<h4>How to join</h4>
+<p>One needs to get two full members of the club who will propose and second you through a prescribed form available from the club. The form to be accompanied with a detailed CV,
+    Passport/National Identity Card and copies of Professional academic Certificates of the prospective member.</p>
+<p>The Balloting Committee then evaluates all the applications submitted and admissions will only be awarded to those applicants who meet the Club entry requirements. The number of new members to be admitted depends on the vacancies available and it’s on first come first admitted basis.</p>
+<p>Members children upon attaining the age of 21 are supposed to take up junior membership which runs up to the age of 25. Upon attaining the age of 25, the junior member is eligible to graduate to a full member.</p>
+<p>Payments are as follows</p>
+<ul>
+    <li>Full member Entrance fee: Kshs 505,500</li>
+    <li>Junior Member Entrance fee: Kshs 13,650</li>
+    <li>Conversion from Junior to Full Member: Kshs 120,750</li>
+</ul>
+<h4>Register now to get started</h4>
+<form action="" method="get">
+    <label for="fname">First Name</label><br>
+    <input type="text"id="fname" style="height: 20px" placeholder="Enter First Name"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="text"id="lname"placeholder="Enter Last Name"><br>
+    <label for="baruapepe">Email Address</label><br>
+    <input type="email"id="baruapepe"placeholder="Enter Email Address"><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date"id="dob"><br>
+    <label for="gender">Gender</label><br>
+    <label for="male">Male</label>
+    <input type="radio"id="male"name="gender">
+    <label for="female">Female</label>
+    <input type="radio"id="female"name="gender">
+    <label for="otherg">Other</label>
+    <input type="radio"id="otherg"name="gender"><br>
+    <label for="pass">Password</label><br>
+    <input type="password"id="pass"placeholder="Enter password"><br>
+</form>
+<div id="Rows">
+    <div class="column">
+        <h4>Address</h4>
+        <p>P.O. Box 40116 – 00100 Ojijo Road Off Museum Hill, Nairobi, Kenya.</p>
+    </div>
+    <div class="column">
+        <h4>Contacts</h4>
+        <p>Tel: +254 (0) 3745164/3752917
+            Mobile: +254725821886,0733438169
+            254736903837</p>
+    </div>
+</div>
+
+</body>
+</html>
